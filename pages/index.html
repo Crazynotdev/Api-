@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bothub API 🔥</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="icon" href="/favicon.ico" />
+  <style>
+    body {
+      background: radial-gradient(circle at top left, #1f2937, #111827);
+    }
+    .glass {
+      backdrop-filter: blur(20px);
+      background-color: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+  </style>
+</head>
+<body class="text-white font-sans">
+
+  <header class="text-center py-16">
+    <h1 class="text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+      Bothub API
+    </h1>
+    <p class="mt-4 text-xl text-gray-300">Des APIs pour bots WhatsApp qui déchirent.</p>
+    <a href="#apis" class="mt-8 inline-block px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-lg rounded-full shadow-md transition">
+      Explorer les API 🚀
+    </a>
+  </header>
+
+  <main id="apis" class="max-w-6xl mx-auto px-4 grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-10">
+    <!-- Fancy Text -->
+    <div class="glass rounded-xl p-6 shadow-xl hover:scale-105 transition">
+      <h2 class="text-2xl font-bold">🪄 Fancy Text</h2>
+      <p class="mt-2 text-gray-300">Transforme ton texte en style barré / stylisé.</p>
+      <code class="block mt-4 bg-black p-2 rounded text-green-400">/api/fancy?text=bonjour</code>
+    </div>
+
+    <!-- TTS -->
+    <div class="glass rounded-xl p-6 shadow-xl hover:scale-105 transition">
+      <h2 class="text-2xl font-bold">🗣️ Text to Speech</h2>
+      <p class="mt-2 text-gray-300">Transforme un texte en audio mp3 multilangue.</p>
+      <code class="block mt-4 bg-black p-2 rounded text-green-400">/api/tts?text=salut&lang=fr</code>
+    </div>
+
+    <!-- Sticker (Mock) -->
+    <div class="glass rounded-xl p-6 shadow-xl hover:scale-105 transition">
+      <h2 class="text-2xl font-bold">🎴 Sticker Maker</h2>
+      <p class="mt-2 text-gray-300">Convertis une image en sticker (bientôt full image).</p>
+      <code class="block mt-4 bg-black p-2 rounded text-green-400">/api/sticker?url=https://image.jpg</code>
+    </div>
+
+    <!-- Ajoute ici d'autres cards si tu veux -->
+  </main>
+
+  <footer class="text-center mt-16 text-gray-500 py-10">
+    <a href="https://www.youtube.com/c/crazychanel" class="hover:underline text-white">🔴 YouTube Crazy</a> •
+    <a href="privacy.html" class="hover:underline text-white">Politique de confidentialité</a>
+    <p class="mt-2">&copy; 2025 Bothub API. Créé avec 💜 pour les devs.</p>
+  </footer>
+
+</body>
+</html>
